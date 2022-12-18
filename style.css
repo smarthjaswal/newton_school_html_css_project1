@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: yellowgreen
+}
+.box{
+    position: absolute;
+    height: 461px;
+    width: 260px;
+    left: 36%;
+    top: 27%;
+    border-radius: 10px;
+    background-image: url(./screen-0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 50px;
+    width: 260px;
+    margin-top: 410px;
+    border-radius: 11px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list-item{
+    list-style: none;
+    display: inline;
+    margin: 0px 23px;
+    font-size: 22px;
+}
